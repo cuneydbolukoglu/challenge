@@ -1,22 +1,22 @@
 [
     {
         "name": "img1",
-        "imgUrl": "./img1.png"
+        "imgUrl": "https://raw.githubusercontent.com/cuneydbolukoglu/challenge/main/img1.png"
     },
     {
         "name": "img2",
-        "imgUrl": "./img2.png"
+        "imgUrl": "https://raw.githubusercontent.com/cuneydbolukoglu/challenge/main/img1.png"
     },
     {
         "name": "img3",
-        "imgUrl": "./img3.png"
+        "imgUrl": "https://raw.githubusercontent.com/cuneydbolukoglu/challenge/main/img3.png"
     },
     {
         "name": "img4",
-        "imgUrl": "./img4.png"
+        "imgUrl": "https://raw.githubusercontent.com/cuneydbolukoglu/challenge/main/img4.png"
     },
     {
         "name": "img5",
-        "imgUrl": "./img5.png"
+        "imgUrl": "https://raw.githubusercontent.com/cuneydbolukoglu/challenge/main/img5.png"
     }
 ]
