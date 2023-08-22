@@ -1,0 +1,22 @@
+[
+    {
+        "name": "img1",
+        "imgUrl": "./img1.png"
+    },
+    {
+        "name": "img2",
+        "imgUrl": "./img2.png"
+    },
+    {
+        "name": "img3",
+        "imgUrl": "./img3.png"
+    },
+    {
+        "name": "img4",
+        "imgUrl": "./img4.png"
+    },
+    {
+        "name": "img5",
+        "imgUrl": "./img5.png"
+    }
+]
