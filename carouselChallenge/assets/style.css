@@ -1,0 +1,120 @@
+* {
+  font-family: poppins;
+  margin: 0;
+}
+header {
+  margin: 50px 0 0 0;
+  height: 105px;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.logo {
+  width: 24.4px;
+  height: 30px;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-size: 15px;
+  margin-right: 50px;
+}
+ul li:last-child {
+  margin-right: 0;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  width: 175px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.carousel{
+  position: relative;
+  height: 500px;
+}
+.left {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 360px;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  opacity: 0.5;
+}
+.right {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 360px;
+  opacity: 0.5;
+}
+.carouselButton {
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  /* margin: 180px; */
+  height: 500px;
+  align-items: center;
+  z-index: 1;
+}
+.carouselButton i {
+  color: black;
+}
+.left:hover, .right:hover {
+  opacity: 1;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+.circle:first-child {
+  margin-left: 0;
+}
+.carousel-circle {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  /* margin: 180px; */
+  align-items: center;
+  bottom: 50px;
+  z-index: 1;
+}
+.carousel-circle-active{
+  opacity: 1;
+}
+.carousel img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
