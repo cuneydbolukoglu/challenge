@@ -108,6 +108,7 @@ button {
   align-items: center;
   bottom: 50px;
   z-index: 1;
+  cursor: pointer;
 }
 .carousel-circle-active{
   opacity: 1;

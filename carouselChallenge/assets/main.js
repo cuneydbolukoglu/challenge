@@ -29,7 +29,7 @@ function initCircleListeners() {
 
   circle.forEach((item, index) => {
     item.addEventListener("click", function () {
-      imgShowSlide(index)
+      imgShowSlide(index);
     });
   });
 }
@@ -39,15 +39,18 @@ function imgShowSlide(index) {
   const circle = document.querySelectorAll(".carousel-circle .circle");
 
   carouselImg.forEach((item, key) => {
-    const circleIndex = circle[index].classList;
     if (key === index) {
       item.style.display = 'block';
-      circleIndex.add(".carousel-circle-active");
     } else {
       item.style.display = 'none';
-      circleIndex.remove(".carousel-circle-active");
     }
   });
+
+  circle.forEach(circleItem => {
+    circleItem.classList.remove("carousel-circle-active");
+  });
+
+  circle[index].classList.add("carousel-circle-active");
 }
 
 axios.get(apiURL).then(
