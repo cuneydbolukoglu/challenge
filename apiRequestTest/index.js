@@ -15,7 +15,7 @@ axios.get(apiUrl).then(
         // respData.map((item) =>
         //     carousel.innerHTML += `<img src=${item.url} alt=${item.name} >`
         // );
-        carouselInıt();
+        this.carouselInıt();
     },
     error => {
         console.error(error);
